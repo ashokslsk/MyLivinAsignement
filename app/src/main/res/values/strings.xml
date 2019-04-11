@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyLivnAssignment</string>
+    <string name="load_next_avatar">Load next Avatar</string>
+    <string name="avatars_loading">Avatars loading</string>
 </resources>

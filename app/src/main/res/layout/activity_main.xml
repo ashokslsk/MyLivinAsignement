@@ -7,13 +7,32 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:id="@+id/avatar"
+            android:layout_marginStart="@dimen/margin_eight_dp"
+            android:layout_marginEnd="@dimen/margin_eight_dp"
+            android:layout_marginTop="@dimen/margin_eight_dp"
+            android:layout_marginBottom="@dimen/margin_eight_dp"
+            android:contentDescription="@string/avatars_loading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/next_avatar"
+            tools:src="@tools:sample/avatars[5]"
+            tools:srcCompat="@tools:sample/avatars[5]" app:layout_constraintHorizontal_bias="0.5"/>
+    <Button
+            android:text="@string/load_next_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_avatar"
+            android:layout_marginEnd="@dimen/margin_eight_dp"
+            android:layout_marginBottom="@dimen/margin_eight_dp"
+            android:layout_marginStart="@dimen/margin_eight_dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
