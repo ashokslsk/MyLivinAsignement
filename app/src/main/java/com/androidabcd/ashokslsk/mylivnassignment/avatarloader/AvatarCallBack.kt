@@ -1,4 +1,4 @@
-package com.androidabcd.ashokslsk.mylivnassignment.AvatarLoader
+package com.androidabcd.ashokslsk.mylivnassignment.avatarloader
 
 import android.graphics.Bitmap
 

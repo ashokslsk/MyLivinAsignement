@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".ui.MainActivity">
 
     <ImageView
             android:layout_width="wrap_content"
@@ -20,7 +20,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/next_avatar"
-            tools:src="@tools:sample/avatars[5]"
             tools:srcCompat="@tools:sample/avatars[5]" app:layout_constraintHorizontal_bias="0.5"/>
     <Button
             android:text="@string/load_next_avatar"

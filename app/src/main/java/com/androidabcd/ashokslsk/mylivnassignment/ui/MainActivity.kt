@@ -1,7 +1,8 @@
-package com.androidabcd.ashokslsk.mylivnassignment
+package com.androidabcd.ashokslsk.mylivnassignment.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.androidabcd.ashokslsk.mylivnassignment.R
 
 class MainActivity : AppCompatActivity() {
 
